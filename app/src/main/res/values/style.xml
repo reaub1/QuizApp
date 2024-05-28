@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.QuizApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:buttonStyle">@style/QuizAppButton</item>
+        <item name="android:editTextStyle">@style/QuizAppEditText</item>
+    </style>
+
+    <!-- Theme without ActionBar -->
+    <style name="Theme.QuizApp.NoActionBar" parent="Theme.QuizApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom button style. -->
+    <style name="QuizAppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorBackground</item>
+    </style>
+
+    <!-- Custom EditText style. -->
+    <style name="QuizAppEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
