@@ -18,7 +18,7 @@ data class Question(
     val reponse4: String
 )
 @Entity(tableName = "reponses")
-data class reponse(
+data class Reponse(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val idQuestion: Int,
     val indexReponse: Int
