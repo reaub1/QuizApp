@@ -16,14 +16,19 @@
         android:id="@+id/btnCategory1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/category_1" />
+        android:text="@string/SPORT" />
 
     <Button
         android:id="@+id/btnCategory2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/category_2" />
+        android:text="@string/CINEMA" />
 
+    <Button
+        android:id="@+id/btnCategory3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/JEUX_VIDEO" />
     <!-- Ajoutez d'autres boutons pour les catégories supplémentaires -->
 
 </LinearLayout>

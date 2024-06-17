@@ -20,4 +20,7 @@
     <string name="back_to_login2">Back to Login</string>
     <string name="login2">Login</string>
     <string name="enter_your_username2">Enter your username</string>
+    <string name="JEUX_VIDEO">JEUX VIDEO</string>
+    <string name="SPORT">SPORT</string>
+    <string name="CINEMA">CINEMA</string>
 </resources>

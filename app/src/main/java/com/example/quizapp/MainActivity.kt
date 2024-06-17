@@ -33,6 +33,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnCategory3 = findViewById<Button>(R.id.btnCategory1)
+        btnCategory1.setOnClickListener {
+            val intent = Intent(this, QuizActivity::class.java)
+            intent.putExtra("CATEGORY", "JEUX_VIDEO")
+            intent.putExtra("USERNAME", username)
+            startActivity(intent)
+        }
+
         // Ajoutez des listeners pour les autres catégories
     }
 }

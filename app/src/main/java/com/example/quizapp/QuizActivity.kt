@@ -56,10 +56,8 @@ class QuizActivity : AppCompatActivity() {
                 btnOption3.setBackgroundColor(Color.LTGRAY)
                 btnOption4.setBackgroundColor(Color.LTGRAY)
             } else {
-                // Enregistrer le score
                 ScoreManager.saveScore(this, PlayerScore(username, score))
 
-                // Afficher les scores ou rediriger vers la page des scores
                 val intent = Intent(this, ScoreActivity::class.java)
                 intent.putExtra("USERNAME", username)
                 intent.putExtra("SCORE", score)
@@ -108,7 +106,6 @@ class QuizActivity : AppCompatActivity() {
         }
         colorAnimation.start()
 
-        // Réinitialiser la couleur après l'animation
         colorAnimation.addListener(object : Animator.AnimatorListener {
             override fun onAnimationEnd(animation: Animator) {
                 button.setBackgroundColor(Color.LTGRAY)
