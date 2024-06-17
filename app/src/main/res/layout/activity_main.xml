@@ -29,6 +29,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/JEUX_VIDEO" />
-    <!-- Ajoutez d'autres boutons pour les catégories supplémentaires -->
 
 </LinearLayout>
